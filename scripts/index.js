@@ -1,13 +1,13 @@
-// var myVar;
+var myVar;
 
-// 	function myFunction() {
-// 	  myVar = setTimeout(showPage, 6000);
-// 	}
+	function myFunction() {
+	  myVar = setTimeout(showPage, 2000);
+	}
 
-// 	function showPage() {
-// 	  document.getElementById("loader").style.display = "none";
-// 	  document.getElementById("maincontent").style.display = "block";
-// 	}
+	function showPage() {
+	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("maincontent").style.display = "block";
+	}
 
 var myIndex = 0;
 carousel2();

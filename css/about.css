@@ -12,30 +12,6 @@ body{
 .basicnav{
 	display: none;
 }
-.banner{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/veg.jpg");
-	background-size: 700px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.banner2{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/veg2.jpg");
-	background-size: 700px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.banner3{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/veg3.jpg");
-	background-size: 700px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
 .fixed-top {
   position: fixed;
   top: 0;

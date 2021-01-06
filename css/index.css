@@ -16,7 +16,7 @@ body{
 	margin-top: 5vh;
 	height: 70vh;
 	background-image: url("../images/veg.jpg");
-	background-size: 700px;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ body{
 	margin-top: 5vh;
 	height: 70vh;
 	background-image: url("../images/veg2.jpg");
-	background-size: 700px;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@ body{
 	margin-top: 5vh;
 	height: 70vh;
 	background-image: url("../images/veg3.jpg");
-	background-size: 700px;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -136,10 +136,10 @@ div.part2{
 	margin: auto;
 	text-align: center;
 	margin-top: 5vw;
-	font-size: 2vw;
+	font-size: 3vw;
 }
 .thmb{
-		height: 45vh;
+	height: 45vh;
 
 }
 .thmb img{
@@ -148,6 +148,12 @@ div.part2{
 }
 .text{
 	color: white;
+}
+.con{
+	
+}
+.con1{
+	height: 210vh;
 }
 @media only screen and (min-width: 768px) {
 	.mobilenav{
