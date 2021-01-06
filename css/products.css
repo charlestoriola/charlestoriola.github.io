@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 *{
 	box-sizing: border-box;
 	/*border: 1px solid red;*/
+	font-family: 'Heebo', sans-serif;
 }
 body{
 	margin: 0;
@@ -155,6 +157,17 @@ div.part2{
 	flex: 100%;
 	max-width: 100%;
 }
+.columnNM {
+  -ms-flex: 100%;
+	flex: 100%;
+	max-width: 100%;
+}
+
+.columnNM img {
+	margin-top: 0px;
+	vertical-align: middle;
+	width: 100%;
+}
 .thmb{
 		height: 45vh;
 
@@ -162,6 +175,17 @@ div.part2{
 .thmb img{
 	max-width: 100%;
 	max-height: auto;
+}
+.prod{
+	position: absolute;
+	top: 35vh;
+	left: 2vw;
+	font-size: 20vw;
+	width: 100%;
+	color: white;
+	text-shadow: 3px 4px 0 #80FF00;
+	-webkit-text-shadow: 3px 4px 0 #80FF00;
+	text-align: center;
 }
 @media only screen and (min-width: 768px) {
 	.mobilenav{
@@ -320,6 +344,18 @@ div.part2{
 	  max-width: 50%;
 	  padding: 0 4px;
 	}
+	.columnNM {
+	  -ms-flex: 50%; /* IE10 */
+	  flex: 50%;
+	  max-width: 50%;
+	  padding: 0 0;
+	}
+
+	.columnNM img {
+		margin-top: 0px;
+	  vertical-align: middle;
+	  width: 100%;
+	}
 
 	.column img {
 	  margin-top: 8px;
@@ -335,5 +371,14 @@ div.part2{
 		max-width: 100%;
     	max-height: auto;
 	}
-
+	.prod{
+		position: absolute;
+		top: 45vh;
+		left: 5vw;
+		font-size: 10vw;
+		width: 100%;
+		color: white;
+		text-shadow: 3px 4px 0 #80FF00;
+  		-webkit-text-shadow: 3px 4px 0 #80FF00;
+	}
 }
