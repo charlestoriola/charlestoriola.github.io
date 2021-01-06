@@ -179,7 +179,7 @@ div.part2{
 .prod{
 	position: absolute;
 	top: 35vh;
-	left: 2vw;
+	
 	font-size: 20vw;
 	width: 100%;
 	color: white;
@@ -374,7 +374,7 @@ div.part2{
 	.prod{
 		position: absolute;
 		top: 45vh;
-		left: 5vw;
+		
 		font-size: 10vw;
 		width: 100%;
 		color: white;
