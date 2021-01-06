@@ -138,6 +138,17 @@ div.part2{
 	margin-top: 5vw;
 	font-size: 2vw;
 }
+.thmb{
+		height: 45vh;
+
+}
+.thmb img{
+	max-width: 100%;
+	max-height: auto;
+}
+.text{
+	color: white;
+}
 @media only screen and (min-width: 768px) {
 	.mobilenav{
 		display: none;
@@ -283,5 +294,12 @@ div.part2{
 		background-size: 60vw;
 		transition: all 0.5s ease-out;
 	}
-	
+	.thmb{
+		height: 45vh;
+
+	}
+	.thmb img{
+		max-width: 100%;
+    	max-height: auto;
+	}
 }
