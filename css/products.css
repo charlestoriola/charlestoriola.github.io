@@ -187,7 +187,18 @@ div.part2{
 	-webkit-text-shadow: 3px 4px 0 #80FF00;
 	text-align: center;
 }
-@media only screen and (min-width: 768px) {
+@media (min-width:600px)  { 
+	.thmb{
+		height: 20vh;
+
+	}
+	.thmb img{
+		max-width: 100%;
+		max-height: auto;
+	}
+}
+
+@media only screen and (min-width: 999px) {
 	.mobilenav{
 		display: none;
 	}
