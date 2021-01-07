@@ -124,22 +124,33 @@ div.part2{
 	padding: 0 4px;
 }
 .column img {
-	margin-top: 8px;
+
 	vertical-align: middle;
 	width: 100%;
 }
 .column {
-	-ms-flex: 100%;
-	flex: 100%;
-	max-width: 100%;
+	-ms-flex: 50%;
+	flex: 50%;
+	max-width: 50%;
 }
 .thmb{
-		height: 45vh;
+		height: 25vh;
 
 }
 .thmb img{
 	max-width: 100%;
 	max-height: auto;
+}
+.prod{
+	position: absolute;
+	top: 35vh;
+	
+	font-size: 20vw;
+	width: 100%;
+	color: white;
+	text-shadow: 3px 4px 0 #80FF00;
+	-webkit-text-shadow: 3px 4px 0 #80FF00;
+	text-align: center;
 }
 @media only screen and (min-width: 768px) {
 	.mobilenav{
@@ -270,5 +281,35 @@ div.part2{
 		margin-top: 5vw;
 		font-size: 1.2vw;
 	}
+	.roww {
+	  display: -ms-flexbox; /* IE10 */
+	  display: flex;
+	  -ms-flex-wrap: wrap; /* IE10 */
+	  flex-wrap: wrap;
+	  padding: 0 4px;
+	}
 
+	/* Create four equal columns that sits next to each other */
+	.column {
+	   -ms-flex: 25%; /* IE10 */
+	  flex: 25%;
+	  max-width: 25%;
+	  padding: 0 0;
+	}
+
+	.column img {
+	  margin-top: 0px;
+	  vertical-align: middle;
+	  width: 100%;
+	}
+	.prod{
+		position: absolute;
+		top: 25vh;
+		text-align: center;
+		font-size: 10vw;
+		width: 100%;
+		color: white;
+		text-shadow: 3px 4px 0 #80FF00;
+  		-webkit-text-shadow: 3px 4px 0 #80FF00;
+	}
 }
