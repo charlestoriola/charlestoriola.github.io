@@ -153,8 +153,14 @@ div.part2{
 }
 .conn2{
 	height: 105vh;
-	background-color: #3c3d41;
+	background-image: url("../images/mark2.jpeg");
 	color: white;
+	background-size: contain;
+	background-position: center;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%; 
+	background-attachment: fixed;
+
 }
 .teext{
 	text-align: center;
@@ -364,7 +370,7 @@ div.part2{
 	.conn2{
 		height: 80vh;
 		background-image: url("../images/mark2.jpeg");
-		
+		color: ;
 		background-size: contain;
 		background-position: center;
 		border-top-left-radius: 50%;
