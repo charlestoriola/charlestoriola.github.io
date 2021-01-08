@@ -117,21 +117,12 @@ div.part2{
 	font-size: 2vw;
 }
 .roww {
-	display: -ms-flexbox; /* IE10 */
-	display: flex;
-	-ms-flex-wrap: wrap; /* IE10 */
-	flex-wrap: wrap;
-	padding: 0 4px;
-}
-.column img {
-
-	vertical-align: middle;
-	width: 100%;
-}
-.column {
-	-ms-flex: 50%;
-	flex: 50%;
-	max-width: 50%;
+	background-image: url("../images/mark2.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%; 
 }
 .thmb{
 		height: 25vh;
@@ -150,6 +141,55 @@ div.part2{
 	color: white;
 	text-shadow: 3px 4px 0 #80FF00;
 	-webkit-text-shadow: 3px 4px 0 #80FF00;
+	text-align: center;
+}
+.img{
+	height: 70vh;
+}
+.conn{
+	height: 170vh;
+}
+.conn2{
+	height: 105vh;
+	background-color: #3c3d41;
+	color: white;
+}
+.teext{
+	text-align: center;
+	margin-bottom: 0;
+	font-weight: bold;
+	padding-top: 10vh;
+}
+.img1{
+	background-image: url("../images/mark.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.img2{
+	background-image: url("../images/part2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+#overlay {
+	position: relative; /* Sit on top of the page content */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 23vh; /* Full height (cover the whole page) */
+	top: 47vh;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black; /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	opacity: 0.6;
+}
+#text{
+  color: white;
+  text-align: center;
+}
+.head{
+	font-size: 5vw;
+}
+.mv{
 	text-align: center;
 }
 @media only screen and (min-width: 768px) {
@@ -259,7 +299,6 @@ div.part2{
 		color: rgba(255,255,255,1.00);
 		height: 40vh;
 		width: 100%;
-		
 	}
 	.logo{
 		display: block;
@@ -282,26 +321,15 @@ div.part2{
 		font-size: 1.2vw;
 	}
 	.roww {
-	  display: -ms-flexbox; /* IE10 */
-	  display: flex;
-	  -ms-flex-wrap: wrap; /* IE10 */
-	  flex-wrap: wrap;
-	  padding: 0 4px;
+		background-image: url("../images/mark2.jpg");
+		height:90vh;
+		background-size: cover;
+		background-position: center;
+		border-bottom-left-radius: 25%;
+		border-bottom-right-radius: 25%; 
 	}
 
-	/* Create four equal columns that sits next to each other */
-	.column {
-	   -ms-flex: 25%; /* IE10 */
-	  flex: 25%;
-	  max-width: 25%;
-	  padding: 0 0;
-	}
 
-	.column img {
-	  margin-top: 0px;
-	  vertical-align: middle;
-	  width: 100%;
-	}
 	.prod{
 		position: absolute;
 		top: 25vh;
@@ -312,4 +340,52 @@ div.part2{
 		text-shadow: 3px 4px 0 #80FF00;
   		-webkit-text-shadow: 3px 4px 0 #80FF00;
 	}
+	.twopart{
+		
+	}
+	.img{
+		height: 70vh;
+	}
+	.conn{
+		height: 110vh;
+	}
+	.conn2{
+		height: 80vh;
+		
+
+	}
+	.teext{
+		text-align: center;
+		
+		font-weight: bold;
+		padding-top: 10vh;
+	}
+	.img1{
+		background-image: url("../images/mark.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.img2{
+		background-image: url("../images/part2.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	#overlay {
+		position: relative; /* Sit on top of the page content */
+		width: 100%; /* Full width (cover the whole page) */
+		height: 27vh; /* Full height (cover the whole page) */
+		top: 41.5vh;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: black; /* Black background with opacity */
+		z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	}
+	.head{
+		font-size: 3vw;
+	}
+	.thm{
+		width: 40vw;
+	}
+	
 }
