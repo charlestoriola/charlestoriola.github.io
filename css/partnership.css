@@ -43,18 +43,6 @@ body{
   left: 0;
   z-index: $zindex-fixed;
 }
-.progress-container {
-	width: 100%;
-	background-color: transparent;
-	height: 5px;
-	display: block;		
-}
-.progress-bar {	
-	background-color: red;
-	width: 0%;
-	display: block;
-	height: inherit;
-}
 #myCarousel .thumbnail {
 	margin-bottom: 0;
 }
@@ -85,25 +73,6 @@ body{
 .carousel-control.left {
 	right:auto;
 	left:auto;
-}
-div.part{
-	height: 100vh;
-	background-image: url("../images/part.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	text-align: center;
-	margin-bottom: 1vh;
-}
-h1.part{
-	margin-top: 0vw;
-}
-p.part{
-	font-size: 1.4vw;
-}
-div.part2{
-	margin-top: 10vw;
 }
 .footer-bs {
     background-color: #3c3d41;
@@ -502,16 +471,7 @@ div.part2{
 .addy i{
 	font-size: 10vw;
 }
-@media (min-width:600px)  { 
-	.thmb{
-		height: 20vh;
 
-	}
-	.thmb img{
-		max-width: 100%;
-		max-height: auto;
-	}
-}
 
 @media only screen and (min-width: 999px) {
 	.mobilenav{

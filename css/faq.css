@@ -12,48 +12,12 @@ body{
 .basicnav{
 	display: none;
 }
-.banner{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/veg.jpg");
-	background-size: 700px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.banner2{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/veg2.jpg");
-	background-size: 700px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.banner3{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/veg3.jpg");
-	background-size: 700px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
 .fixed-top {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: $zindex-fixed;
-}
-.progress-container {
-	width: 100%;
-	background-color: transparent;
-	height: 5px;
-	display: block;		
-}
-.progress-bar {	
-	background-color: red;
-	width: 0%;
-	display: block;
-	height: inherit;
 }
 #myCarousel .thumbnail {
 	margin-bottom: 0;
@@ -86,25 +50,6 @@ body{
 	right:auto;
 	left:auto;
 }
-div.part{
-	height: 100vh;
-	background-image: url("../images/part.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	text-align: center;
-	margin-bottom: 1vh;
-}
-h1.part{
-	margin-top: 0vw;
-}
-p.part{
-	font-size: 1.4vw;
-}
-div.part2{
-	margin-top: 10vw;
-}
 .footer-bs {
     background-color: #3c3d41;
 	color: rgba(255,255,255,1.00);
@@ -120,6 +65,15 @@ div.part2{
 	height: 10vh;
 	background-color: gray;
 	border-bottom: 2px solid black;
+}
+.addy2 i{
+	font-size: 6vw;
+}
+.addy p{
+	font-size: 3vw;
+}
+.addy i{
+	font-size: 10vw;
 }
 .flex{
 	display: flex;
@@ -147,37 +101,13 @@ div.part2{
 .addy i{
 	font-size: 10vw;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 999px) {
 	.mobilenav{
 		display: none;
 	}
 	.basicnav{
 		display: block;
 
-	}
-	.banner{
-		margin-top: 2vh;
-		height: 100vh;
-		background-image: url("../images/veg.jpg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-	.banner2{
-		margin-top: 2vh;
-		height: 100vh;
-		background-image: url("../images/veg2.jpg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-	.banner3{
-		margin-top: 2vh;
-		height: 100vh;
-		background-image: url("../images/veg3.jpg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
 	}
 	.fixed-top {
 		position: fixed;
@@ -229,26 +159,6 @@ div.part2{
 		right:auto;
 		left:auto;
 	}
-	div.part{
-		height: 100vh;
-		width: 100%;
-		background-image: url("../images/part.jpg");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		text-align: center;
-		margin-bottom: 1vh;
-	}
-	h1.part{
-		font-size: 3vh;margin-top: 0vw;
-	}
-	p.part{
-		font-size: 1.4vw;margin-left: 12vw;margin-right: 12vw;
-	}
-	div.part2{
-		margin-top: 8vw;
-	}
 	.footer-bs {
 	    background-color: #3c3d41;
 		color: rgba(255,255,255,1.00);
@@ -260,9 +170,6 @@ div.part2{
 		display: block;
 		padding-top: 1vw;
 		width: 12vw;
-	}
-	.con{
-		height: 80vh;
 	}
 	.addy{
 		display: grid;

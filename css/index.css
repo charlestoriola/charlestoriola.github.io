@@ -164,7 +164,16 @@ div.part2{
 .addy i{
 	font-size: 10vw;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px){
+	.con1{
+		height: 230vh;
+	}
+	.banner, .banner2, .banner3{
+		height: 100vh;
+	}
+	
+}
+@media only screen and (min-width: 999px) {
 	.mobilenav{
 		display: none;
 	}
