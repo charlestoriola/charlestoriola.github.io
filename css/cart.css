@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	font-family: 'Heebo', sans-serif;
+	 scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+}
+.mobilenav{
+	display: block;
+	padding-bottom: 3vh;
+}
+.basicnav{
+	display: none;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $zindex-fixed;
+}
+.footer-bs {
+    background-color: #3c3d41;
+	color: rgba(255,255,255,1.00);
+	height: auto;
+	width: 100%;
+}
+.logo{
+	display: grid;
+	margin: auto;
+	width: 25vw;
+}
+.smedia{
+	height: 10vh;
+	background-color: gray;
+	border-bottom: 2px solid black;
+}
+.shop {
+  height: 30vh;
+  margin-top: 20vh;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid grey;
+  width: 80%;
+
+  margin-left: 10vw;
+}
+.stuff {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.icon{
+	font-size: 6vw;
+}
+.addy{
+	display: grid;
+	margin: auto;
+	text-align: center;
+	margin-top: 5vw;
+	font-size: 2vw;
+}
+.addy2 p{
+	font-family: lato;
+	margin-left: 2vw;
+}
+.addy2 i{
+	font-size: 6vw;
+}
+.addy p{
+	font-size: 3vw;
+}
+.addy i{
+	font-size: 10vw;
+}
+@media only screen and (min-width: 999px) {
+  .mobilenav{
+		display: none;
+	}
+	.basicnav{
+		display: block;
+
+	}
+	.fixed-top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: $zindex-fixed;
+	}
+	  .shop {
+	    height: 50vh;
+	    margin-top: 20vh;
+	  }
+	  .cart {
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    border-bottom: 1px solid grey;
+	    width: 50%;
+
+	    margin-left: 25vw;
+	  }
+	  .stuff {
+	    display: flex;
+	    flex-direction: row;
+	  }
+	  .footer-bs {
+	    background-color: #3c3d41;
+		color: rgba(255,255,255,1.00);
+		height: 40vh;
+		width: 100%;
+	}
+	.logo{
+		display: block;
+		padding-top: 1vw;
+		width: 12vw;
+	}
+	.addy{
+		display: grid;
+		margin: auto;
+		text-align: center;
+		margin-top: 5vw;
+		font-size: 1.2vw;
+	}
+	.addy p{
+		font-size: 1.7vw;
+	}
+	.addy i{
+		font-size: 3vw;
+	}
+	.icon{
+		font-size: 4vw;
+	}
+}
