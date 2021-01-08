@@ -152,7 +152,7 @@ div.part2{
 	color: white;
 }
 .con1{
-	height: 250vh;
+	height: 236	vh;
 	
 }
 .addy2 i{
@@ -170,6 +170,45 @@ div.part2{
 	}
 	.banner, .banner2, .banner3{
 		height: 100vh;
+	}
+
+	
+}
+@media only screen and (max-width: 1200px) and (min-height: 1000px){
+	.con1{
+		height: 160vh;
+	}
+	.banner, .banner2, .banner3{
+		height: 100vh;
+	}
+	.con{
+		height: 40vh;
+	}
+	.mobilenav{
+		display: block;
+		padding-bottom: 3vh;
+	}
+	.basicnav{
+		display: none;
+	}
+	
+}
+@media only screen and (min-width: 600px) and (min-height: 1000px){
+	.con1{
+		height: 200vh;
+	}
+	.banner, .banner2, .banner3{
+		height: 100vh;
+	}
+	.con{
+		height: 40vh;
+	}
+	.mobilenav{
+		display: block;
+		padding-bottom: 3vh;
+	}
+	.basicnav{
+		display: none;
 	}
 	
 }
