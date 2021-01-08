@@ -34,7 +34,7 @@ body{
 	background-attachment: fixed;
 }
 .inform{
-	height: 100vh;
+	height: 80vh;
 }
 .fixed-top {
   position: fixed;
@@ -486,6 +486,9 @@ div.part2{
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
+}
+.form{
+	margin-top: 20vh;
 }
 @media (min-width:600px)  { 
 	.thmb{

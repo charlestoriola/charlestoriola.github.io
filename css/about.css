@@ -122,8 +122,9 @@ div.part2{
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	border-bottom-left-radius: 25%;
-	border-bottom-right-radius: 25%; 
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%; 
+	background-attachment: fixed;
 }
 .thmb{
 		height: 25vh;
@@ -324,10 +325,11 @@ div.part2{
 	.roww {
 		background-image: url("../images/mark2.jpeg");
 		height:90vh;
-		background-size: cover;
+		background-size: contain;
 		background-position: center;
-		border-bottom-left-radius: 25%;
-		border-bottom-right-radius: 25%; 
+		border-bottom-left-radius: 50%;
+		border-bottom-right-radius: 50%; 
+		background-attachment: fixed;
 	}
 
 
@@ -352,7 +354,13 @@ div.part2{
 	}
 	.conn2{
 		height: 80vh;
+		background-image: url("../images/mark2.jpeg");
 		
+		background-size: contain;
+		background-position: center;
+		border-top-left-radius: 50%;
+		border-top-right-radius: 50%; 
+		background-attachment: fixed;
 
 	}
 	.teext{
