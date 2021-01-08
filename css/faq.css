@@ -138,6 +138,15 @@ div.part2{
 	margin-top: 5vw;
 	font-size: 2vw;
 }
+.addy2 i{
+	font-size: 6vw;
+}
+.addy p{
+	font-size: 3vw;
+}
+.addy i{
+	font-size: 10vw;
+}
 @media only screen and (min-width: 768px) {
 	.mobilenav{
 		display: none;
@@ -277,5 +286,14 @@ div.part2{
 		background: url('../images/TheGreenDeal.png') 50% 50% no-repeat rgb(249,249,249);
 		background-size: 60vw;
 		transition: all 0.5s ease-out;
+	}
+	.addy p{
+		font-size: 1.7vw;
+	}
+	.addy i{
+		font-size: 3vw;
+	}
+	.icon{
+		font-size: 4vw;
 	}
 }

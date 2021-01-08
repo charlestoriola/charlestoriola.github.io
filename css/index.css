@@ -151,11 +151,18 @@ div.part2{
 .text{
 	color: white;
 }
-.con{
-	
-}
 .con1{
 	height: 210vh;
+	
+}
+.addy2 i{
+	font-size: 6vw;
+}
+.addy p{
+	font-size: 3vw;
+}
+.addy i{
+	font-size: 10vw;
 }
 @media only screen and (min-width: 768px) {
 	.mobilenav{
@@ -272,9 +279,9 @@ div.part2{
 		width: 12vw;
 	}
 	.con{
-		height: 100vh;
+		height: 100vh;box-shadow: 10px 10px 54px -6px rgba(0,0,0,0.75);
 		box-shadow: 4px 3px 8px 1px #969696;
-  		-webkit-box-shadow: 4px 3px 8px 1px #969696;
+  		-webkit-box-shadow: 10px 10px 54px -6px rgba(0,0,0,0.75);
 	}
 	.con1{
 		height: 110vh;
@@ -309,5 +316,14 @@ div.part2{
 	.thmb img{
 		max-width: 100%;
     	max-height: auto;
+	}
+	.addy p{
+		font-size: 1.7vw;
+	}
+	.addy i{
+		font-size: 3vw;
+	}
+	.icon{
+		font-size: 4vw;
 	}
 }

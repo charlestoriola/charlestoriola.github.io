@@ -194,6 +194,15 @@ div.part2{
 .mv{
 	text-align: center;
 }
+.addy2 i{
+	font-size: 6vw;
+}
+.addy p{
+	font-size: 3vw;
+}
+.addy i{
+	font-size: 10vw;
+}
 @media only screen and (min-width: 768px) {
 	.mobilenav{
 		display: none;
@@ -396,5 +405,13 @@ div.part2{
 	.thm{
 		width: 40vw;
 	}
-	
+	.addy p{
+		font-size: 1.7vw;
+	}
+	.addy i{
+		font-size: 3vw;
+	}
+	.icon{
+		font-size: 4vw;
+	}
 }

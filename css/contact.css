@@ -15,27 +15,6 @@ body{
 .basicnav{
 	display: none;
 }
-.banner{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/part2.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-.banner2{
-	margin-top: 5vh;
-	height: 70vh;
-	background-image: url("../images/mark3.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-.inform{
-	height: 80vh;
-}
 .fixed-top {
   position: fixed;
   top: 0;
@@ -129,7 +108,7 @@ div.part2{
 	margin-right: 2vw;
 }
 .icon{
-	font-size: 4vw;
+	font-size: 6vw;
 }
 .addy{
 	display: grid;
@@ -139,35 +118,16 @@ div.part2{
 	font-size: 2vw;
 }
 .roww {
-	display: -ms-flexbox; /* IE10 */
-	display: flex;
-	-ms-flex-wrap: wrap; /* IE10 */
-	flex-wrap: wrap;
-	padding: 0 4px;
-}
-.column img {
-	margin-top: 8px;
-	vertical-align: middle;
-	width: 100%;
-}
-.column {
-	-ms-flex: 100%;
-	flex: 100%;
-	max-width: 100%;
-}
-.columnNM {
-  -ms-flex: 100%;
-	flex: 100%;
-	max-width: 100%;
-}
-
-.columnNM img {
-	margin-top: 0px;
-	vertical-align: middle;
-	width: 100%;
+	background-image: url("../images/mark2.jpeg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%; 
+	background-attachment: fixed;
 }
 .thmb{
-		height: 45vh;
+		height: 25vh;
 
 }
 .thmb img{
@@ -183,6 +143,67 @@ div.part2{
 	color: white;
 	text-shadow: 3px 4px 0 #80FF00;
 	-webkit-text-shadow: 3px 4px 0 #80FF00;
+	text-align: center;
+}
+.img{
+	height: 70vh;
+}
+.con{
+	height: auto;
+	width: 80%;
+	box-shadow: 4px 3px 8px 1px #969696;
+	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+	padding: 5vw;
+}
+.con1{
+	margin-top: 15vh;
+	margin-bottom: 20vh;
+	text-align: center;
+}
+.conn{
+	height: 270vh;
+}
+.conn2{
+	height: 105vh;
+	background-color: #3c3d41;
+	color: white;
+}
+.teext{
+	text-align: center;
+	margin-bottom: 0;
+	font-weight: bold;
+	padding-top: 10vh;
+}
+.img1{
+	background-image: url("../images/mark.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.img2{
+	background-image: url("../images/part2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+#overlay {
+	position: relative; /* Sit on top of the page content */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 23vh; /* Full height (cover the whole page) */
+	top: 47vh;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black; /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	opacity: 0.6;
+}
+#text{
+  color: white;
+  text-align: center;
+}
+.head{
+	font-size: 5vw;
+}
+.mv{
 	text-align: center;
 }
 .form-container ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -487,11 +508,18 @@ div.part2{
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
-.form{
-	margin-top: 20vh;
+.cont{
+	height: 50vh;
+
 }
-.text{
-	text-align: center;
+.addy2{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5vh;
+}
+.addy2 p{
+	font-family: lato;
+	margin-left: 2vw;
 }
 .addy2 i{
 	font-size: 6vw;
@@ -502,18 +530,7 @@ div.part2{
 .addy i{
 	font-size: 10vw;
 }
-@media (min-width:600px)  { 
-	.thmb{
-		height: 20vh;
-
-	}
-	.thmb img{
-		max-width: 100%;
-		max-height: auto;
-	}
-}
-
-@media only screen and (min-width: 999px) {
+@media only screen and (min-width: 768px) {
 	.mobilenav{
 		display: none;
 	}
@@ -523,16 +540,24 @@ div.part2{
 	}
 	.banner{
 		margin-top: 2vh;
-		height: 80vh;
-		background-image: url("../images/part2.jpg");
+		height: 100vh;
+		background-image: url("../images/veg.jpg");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 	}
 	.banner2{
 		margin-top: 2vh;
-		height: 80vh;
-		background-image: url("../images/mark3.jpg");
+		height: 100vh;
+		background-image: url("../images/veg2.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.banner3{
+		margin-top: 2vh;
+		height: 100vh;
+		background-image: url("../images/veg3.jpg");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -612,20 +637,11 @@ div.part2{
 		color: rgba(255,255,255,1.00);
 		height: 40vh;
 		width: 100%;
-		
 	}
 	.logo{
 		display: block;
 		padding-top: 1vw;
 		width: 12vw;
-	}
-	.con{
-		height: 100vh;
-		box-shadow: 4px 3px 8px 1px #969696;
-  		-webkit-box-shadow: 4px 3px 8px 1px #969696;
-	}
-	.con1{
-		height: 100vh;
 	}
 	.addy{
 		display: grid;
@@ -634,73 +650,104 @@ div.part2{
 		margin-top: 5vw;
 		font-size: 1.2vw;
 	}
-	.loader 
-	{
-		position: fixed;
-		left: 0px;
-		top: 0px;
-		width: 100%;
-		height: 100%;
-		z-index: 9999;
-		background: url('../images/TheGreenDeal.png') 50% 50% no-repeat rgb(249,249,249);
-		background-size: 60vw;
-	}
-	
-
 	.roww {
-	  display: -ms-flexbox; /* IE10 */
-	  display: flex;
-	  -ms-flex-wrap: wrap; /* IE10 */
-	  flex-wrap: wrap;
-	  padding: 0 4px;
+		background-image: url("../images/mark2.jpeg");
+		height:90vh;
+		background-size: contain;
+		background-position: center;
+		border-bottom-left-radius: 50%;
+		border-bottom-right-radius: 50%; 
+		background-attachment: fixed;
 	}
 
-	/* Create four equal columns that sits next to each other */
-	.column {
-	  -ms-flex: 50%; /* IE10 */
-	  flex: 50%;
-	  max-width: 50%;
-	  padding: 0 4px;
-	}
-	.columnNM {
-	  -ms-flex: 50%; /* IE10 */
-	  flex: 50%;
-	  max-width: 50%;
-	  padding: 0 0;
-	}
 
-	.columnNM img {
-		margin-top: 0px;
-	  vertical-align: middle;
-	  width: 100%;
-	}
-
-	.column img {
-	  margin-top: 8px;
-	  vertical-align: middle;
-	  width: 100%;
-	}
-
-	.thmb{
-		height: 45vh;
-
-	}
-	.thmb img{
-		max-width: 100%;
-    	max-height: auto;
-	}
 	.prod{
 		position: absolute;
-		top: 45vh;
-		
+		top: 25vh;
+		text-align: center;
 		font-size: 10vw;
 		width: 100%;
 		color: white;
 		text-shadow: 3px 4px 0 #80FF00;
   		-webkit-text-shadow: 3px 4px 0 #80FF00;
 	}
-	.jumb{
+	.twopart{
+		
+	}
+	.img{
+		height: 70vh;
+	}
+	.conn{
+		height: 110vh;
+	}
+	.conn2{
+		height: 80vh;
+		background-image: url("../images/mark2.jpeg");
+		
+		background-size: contain;
+		background-position: center;
+		border-top-left-radius: 50%;
+		border-top-right-radius: 50%; 
+		background-attachment: fixed;
+
+	}
+	.teext{
+		text-align: center;
+		
 		font-weight: bold;
+		padding-top: 10vh;
+	}
+	.img1{
+		background-image: url("../images/mark.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.img2{
+		background-image: url("../images/part2.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	#overlay {
+		position: relative; /* Sit on top of the page content */
+		width: 100%; /* Full width (cover the whole page) */
+		height: 27vh; /* Full height (cover the whole page) */
+		top: 41.5vh;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: black; /* Black background with opacity */
+		z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	}
+	.head{
+		font-size: 3vw;
+	}
+	.thm{
+		width: 40vw;
+	}
+	.con{
+		box-shadow: 10px 10px 54px -6px rgba(0,0,0,0.75);
+		box-shadow: 4px 3px 8px 1px #969696;
+  		-webkit-box-shadow: 10px 10px 54px -6px rgba(0,0,0,0.75);
+	}
+	.con1{
+		margin-bottom: 20vh;
+		text-align: center;
+	}
+	.addy2 p{
+		margin-top: 1vh;
+		
+	}
+	.addy2{
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 2vh;
+		font-size: 2vw;
+	}
+	.addy2 i{
+		font-size: 3vw;
+	}
+	.cont{
+		height: 60vh;
 
 	}
 	.addy p{

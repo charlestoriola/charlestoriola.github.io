@@ -188,6 +188,15 @@ div.part2{
 	-webkit-text-shadow: 3px 4px 0 #80FF00;
 	text-align: center;
 }
+.addy2 i{
+	font-size: 6vw;
+}
+.addy p{
+	font-size: 3vw;
+}
+.addy i{
+	font-size: 10vw;
+}
 @media (min-width:600px)  { 
 	.thmb{
 		height: 20vh;
@@ -392,5 +401,14 @@ div.part2{
 		color: white;
 		text-shadow: 3px 4px 0 #80FF00;
   		-webkit-text-shadow: 3px 4px 0 #80FF00;
+	}
+	.addy p{
+		font-size: 1.7vw;
+	}
+	.addy i{
+		font-size: 3vw;
+	}
+	.icon{
+		font-size: 4vw;
 	}
 }
