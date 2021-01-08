@@ -17,7 +17,7 @@ body{
 .banner{
 	margin-top: 5vh;
 	height: 70vh;
-	background-image: url("../images/part3.jpg");
+	background-image: url("../images/part2.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -206,7 +206,7 @@ div.part2{
 	.banner{
 		margin-top: 2vh;
 		height: 80vh;
-		background-image: url("../images/part3.jpg");
+		background-image: url("../images/part2.jpg");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
