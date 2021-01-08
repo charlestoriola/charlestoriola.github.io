@@ -150,7 +150,7 @@ div.part2{
 }
 .con{
 	height: auto;
-	width: 80%;
+	width: 100%;
 	box-shadow: 4px 3px 8px 1px #969696;
 	-webkit-box-shadow: 4px 3px 8px 1px #969696;
 	padding: 5vw;
@@ -510,11 +510,12 @@ div.part2{
 }
 .cont{
 	height: 50vh;
-
+	width: 100%;
 }
 .addy2{
 	display: flex;
 	flex-direction: row;
+	margin-top: 0;
 	margin-bottom: 5vh;
 }
 .addy2 p{
@@ -529,6 +530,10 @@ div.part2{
 }
 .addy i{
 	font-size: 10vw;
+}
+h3.cont{
+	width: 60%; margin-top: 0;
+	margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) {
 	.mobilenav{
@@ -758,5 +763,8 @@ div.part2{
 	}
 	.icon{
 		font-size: 4vw;
+	}
+	h3#cont{
+		width: 40%; margin-top: 0;
 	}
 }
