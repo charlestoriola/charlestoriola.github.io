@@ -487,9 +487,12 @@ div.part2{
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
+<<<<<<< HEAD
 .form{
 	margin-top: 20vh;
 }
+=======
+>>>>>>> bd78638919c39151323b9f38b46cde12ac15295f
 @media (min-width:600px)  { 
 	.thmb{
 		height: 20vh;
