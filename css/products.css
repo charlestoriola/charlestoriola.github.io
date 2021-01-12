@@ -143,18 +143,37 @@ body{
 	font-size: 10vw;
 }
 @media only screen and (min-width: 600px){
-	.con{
+	.con1{
 		height: 230vh;
 	}
-	.column img {
-		margin-top: 8px;
-		vertical-align: middle;
-		width: 100%;
+	.banner, .banner2, .banner3{
+		height: 100vh;
 	}
-	.column {
-		-ms-flex: 50%;
-		flex: 50%;
-		max-width: 50%;
+
+	
+}
+@media only screen and (min-width: 768px) and (min-height:1000px){
+    .mobilenav{
+		display: none;
+	}
+	.basicnav{
+		display: block;
+
+	}
+	.con1{
+		height: 285vw;
+	}
+	.banner, .banner2, .banner3{
+		height: 50vw;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-height:500px){
+	.con1{
+		height: 175vw;
+	}
+	.banner, .banner2, .banner3{
+		height: 50vw;
 	}
 }
 
