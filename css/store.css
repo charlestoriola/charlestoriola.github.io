@@ -8,13 +8,6 @@
 body{
 	margin: 0;
 }
-.mobilenav{
-	display: block;
-	padding-bottom: 3vh;
-}
-.basicnav{
-	display: none;
-}
 .fixed-top {
   position: fixed;
   top: 0;
@@ -70,13 +63,6 @@ body{
 	max-height: auto;
 }
 @media only screen and (min-width: 999px) {
-  .mobilenav{
-		display: none;
-	}
-	.basicnav{
-		display: block;
-
-	}
 	.fixed-top {
 		position: fixed;
 		top: 0;
