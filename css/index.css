@@ -7,13 +7,6 @@
 body{
 	margin: 0;
 }
-.mobilenav{
-	display: block;
-	padding-bottom: 3vh;
-}
-.basicnav{
-	display: none;
-}
 .banner{
 	margin-top: 5vh;
 	height: 70vh;
@@ -175,13 +168,6 @@ div.part2{
 	
 }
 @media only screen and (min-width: 768px) and (min-height:1000px){
-    .mobilenav{
-		display: none;
-	}
-	.basicnav{
-		display: block;
-
-	}
 	.con1{
 		height: 285vw;
 	}
@@ -200,13 +186,6 @@ div.part2{
 }
 
 @media only screen and (min-width: 999px) {
-	.mobilenav{
-		display: none;
-	}
-	.basicnav{
-		display: block;
-
-	}
 	.banner{
 		margin-top: 2vh;
 		height: 100vh;
@@ -361,5 +340,4 @@ div.part2{
 	.icon{
 		font-size: 4vw;
 	}
-
 }

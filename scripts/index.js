@@ -31,3 +31,20 @@ function carousel2() {
 $('#myCarousel').carousel({
     interval:   3000
   });
+
+
+// $(document).ready(function(){
+//     $(window).scroll(function() {
+//         //check if your div is visible to user
+//         // CODE ONLY CHECKS VISIBILITY FROM TOP OF THE PAGE
+//         if ($(window).scrollTop() + $(window).height() >= $('#load').offset().top) {
+//             if(!$('#load').attr('loaded')) {
+//                 //not in ajax.success due to multiple sroll events
+//                 $('#load').attr('loaded', true);
+
+//                 //ajax goes here
+//                 //in theory, this code still may be called several times
+//             }
+//         }
+//     });
+// });
